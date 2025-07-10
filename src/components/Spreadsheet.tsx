@@ -8,7 +8,7 @@ import TableRow from "./TableRow";
 const TOTAL_ROWS = 15; 
 
 const Spreadsheet = () => {
-    const [rows, _setRows] = useState<SpreadsheetRow[]>(mockData);
+    const [rows] = useState<SpreadsheetRow[]>(mockData);
 
     //   const handleAddRow = () => {
     //     const newRow: SpreadsheetRow = {
